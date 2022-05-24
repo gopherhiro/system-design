@@ -35,20 +35,21 @@ Assuming, we will have 500M new URL shortenings per month, with 100:1 read/write
 
 ##### High-level estimates:
 
-数字单位
-1T = 1000B
-1B = 1000M
-1M = 1000K
+###### 数字单位
+- 1T = 1000B
+- 1B = 1000M
+- 1M = 1000K
 
-容量单位
-1PB = 1024TB
-1TB = 1024GB
-1GB = 1024MB
-1MB = 1024KB
-1KB = 1024 Bytes
-1Bytes = 8 Bits
+###### 容量单位
+- 1PB = 1024TB
+- 1TB = 1024GB
+- 1GB = 1024MB
+- 1MB = 1024KB
+- 1KB = 1024 Bytes
+- 1Bytes = 8 Bits
 
-可以使用这种方法对之前的系统进行评估。
+###### Tips
+可以使用 Capacity Estimation and Constraints 对之前的项目进行复盘评估。
 
 ## 4. System APIs
 Once we’ve finalized the requirements, it’s always a good idea to define the system APIs. This should explicitly state what is expected from the system.
